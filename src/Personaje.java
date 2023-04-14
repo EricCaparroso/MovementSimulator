@@ -4,5 +4,9 @@ public class Personaje {
     private int PosicionY = 0;
     private int Velocidad  = 1;
 
+    public Personaje(String nombre) {
+        this.nombre = nombre;
+    }
+
 
 }
