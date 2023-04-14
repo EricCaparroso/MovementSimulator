@@ -13,4 +13,7 @@ public class GeneradorMapas {
         }
         return  mapa;
     }
+    public static void imprimirLeyenda(){
+        System.out.println("\n # → Borde del mapa (no accesible)\n  X → Suelo del mapa (accesible)");
+    }
 }

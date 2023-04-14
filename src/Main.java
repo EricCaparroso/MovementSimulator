@@ -8,7 +8,10 @@ public class Main {
                 }
                 System.out.println();
             }
+            GeneradorMapas.imprimirLeyenda();
         }
 
 
-    }
+
+
+}
